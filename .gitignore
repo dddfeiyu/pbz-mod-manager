@@ -1,0 +1,37 @@
+# Build output
+dist/
+dist_new/
+dist_nexus/
+_old_dist/
+build/
+*.spec.bak
+
+# Virtual environment
+.venv/
+venv/
+
+# Logs
+*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.c
+
+# Third-party binaries that must NOT be redistributed here.
+# assets/enabler contains UniversalSigBypasser.asi (CC BY-NC 4.0,
+# author's permissions forbid uploading to other sites) and
+# dsound.dll (Ultimate ASI Loader, MIT, by ThirteenAG).
+# They are fetched by the user, not shipped from this repository.
+assets/enabler/
+assets/_enabler_off/
+
+# Local scratch
+*.tmp
+.selftest*
+
+# Internal ops material: Chinese release notes, appeal drafts, and store
+# artwork that uses official game art. Not part of the source distribution.
+docs/
